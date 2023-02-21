@@ -1,4 +1,4 @@
-#include <stdio,h>
+#include <stdio.h>
 /**
  * main - main block
  * Description: get a random number it
