@@ -2,11 +2,11 @@
 
 /**
 * binary_to_uint - converts a binary num to unsigned int
-* @b: string containing the binary num
+* @c: string containing the binary num
 *
 * Return: the converted num
 */
-unsigned int binary_to_uint(const char *b)
+unsigned int binary_to_uint(const char *c)
 {
 int i;
 unsigned int dec_val = 0;
