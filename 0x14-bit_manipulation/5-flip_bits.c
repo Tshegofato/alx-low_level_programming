@@ -21,3 +21,7 @@ if (current & 1)
 count++;
 }
 
+return (count);
+}
+
+
