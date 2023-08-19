@@ -40,7 +40,7 @@ if (current->next != NULL)
 current->next->prev = new_node;
 current->next = new_node;
 new_node->prev = current;
-return new_node;
+return (new_node);
 }
 
 current = current->next;
@@ -48,5 +48,5 @@ count++;
 }
 
 free(new_node);
-return NULL;
+return (NULL);
 }
